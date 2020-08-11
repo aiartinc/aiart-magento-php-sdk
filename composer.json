@@ -1,0 +1,24 @@
+{
+  "name": "aiartinc/aiart-magento2-php-sdk",
+  "description": "Magento2 Payment Gateway for BTC, USDT and Ether",
+  "homepage": "https://github.com/aiartinc/aiart-magento2-php-sdk",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
+  },
+  "type": "magento2-module",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Team AI Art Inc",
+      "email": "hamilton@aiart.io"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "aiartinc\\aiart-php-sdk\\": ""
+    }
+  }
+}
